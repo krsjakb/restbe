@@ -35,12 +35,3 @@ msbuild.wrn
 
 # Visual Studio 2015
 .vs/
-/.vs/restbe/v16/.suo
-/restbe/obj/Debug/netcoreapp3.1/restbe.assets.cache
-/restbe/obj/Debug/netcoreapp3.1/restbe.csproj.AssemblyReference.cache
-/restbe/obj/Debug/netcoreapp3.1/restbe.GeneratedMSBuildEditorConfig.editorconfig
-/restbe/obj/project.assets.json
-/restbe/obj/project.nuget.cache
-/restbe/obj/restbe.csproj.nuget.dgspec.json
-/restbe/obj/restbe.csproj.nuget.g.props
-/restbe/restbe.csproj.user
