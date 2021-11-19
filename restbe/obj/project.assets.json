@@ -8671,19 +8671,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Balint\\.nuget\\packages\\": {}
+    "C:\\Users\\vikto\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Balint\\source\\repos\\restbe\\restbe\\restbe.csproj",
+      "projectUniqueName": "P:\\Egyetem PTE-TTK\\2021_2022_1\\Osztott_rendszerek_parhuzamos_programozas\\restbe\\restbe\\restbe.csproj",
       "projectName": "restbe",
-      "projectPath": "C:\\Users\\Balint\\source\\repos\\restbe\\restbe\\restbe.csproj",
-      "packagesPath": "C:\\Users\\Balint\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Balint\\source\\repos\\restbe\\restbe\\obj\\",
+      "projectPath": "P:\\Egyetem PTE-TTK\\2021_2022_1\\Osztott_rendszerek_parhuzamos_programozas\\restbe\\restbe\\restbe.csproj",
+      "packagesPath": "C:\\Users\\vikto\\.nuget\\packages\\",
+      "outputPath": "P:\\Egyetem PTE-TTK\\2021_2022_1\\Osztott_rendszerek_parhuzamos_programozas\\restbe\\restbe\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Balint\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\vikto\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8776,7 +8776,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -17,5 +17,9 @@ namespace restbe.Models
         public DbSet<CarBrands> CarBrands { get; set; }
 
         public DbSet<CarModel> CarModel { get; set; }
+
+        public DbSet<CelloBrands> CelloBrands { get; set; }
+
+        public DbSet<CelloModel> CelloModel { get; set; }
     }
 }
