@@ -14,7 +14,5 @@ namespace restbe.Models
         public double Length { get; set; }
         public string PackageSize { get; set; }
         public int Weight { get; set; }
-        //public int ScrewBrandId { get; set; }
-        //public ScrewBrands ScrewBrand { get; set; }
     }
 }

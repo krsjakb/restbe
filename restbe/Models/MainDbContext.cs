@@ -14,8 +14,6 @@ namespace restbe.Models
         {
         }
 
-        public DbSet<ScrewBrands> ScrewBrands { get; set; }
-
         public DbSet<ScrewModel> ScrewModel { get; set; }
 
         public DbSet<CarBrands> CarBrands { get; set; }
