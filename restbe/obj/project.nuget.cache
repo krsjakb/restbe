@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HZQsqKcbhbpT1buibG+yxO9OYqh9/3H++jhg4lP0giq9FHi9l1V4PEpBg5rB1mDprBtlG4wW8ZdCoDaB/34M9g==",
+  "dgSpecHash": "azUt6Kzm8AEyg0jdwqdt0JMLGL6IHkHkqg4UsvmlByWcjwGtiNw/Cc/E7nk18e0YhGY3/GX9M7sNHmCUNcfZjw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Gál Zalán\\Desktop\\R\\restbe\\restbe\\restbe.csproj",
   "expectedPackageFiles": [
@@ -25,8 +25,8 @@
     "C:\\Users\\Gál Zalán\\.nuget\\packages\\microsoft.entityframeworkcore.design\\5.0.11\\microsoft.entityframeworkcore.design.5.0.11.nupkg.sha512",
     "C:\\Users\\Gál Zalán\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\5.0.11\\microsoft.entityframeworkcore.inmemory.5.0.11.nupkg.sha512",
     "C:\\Users\\Gál Zalán\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.11\\microsoft.entityframeworkcore.relational.5.0.11.nupkg.sha512",
-    "C:\\Users\\Gál Zalán\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\3.1.20\\microsoft.entityframeworkcore.sqlserver.3.1.20.nupkg.sha512",
-    "C:\\Users\\Gál Zalán\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\3.1.20\\microsoft.entityframeworkcore.tools.3.1.20.nupkg.sha512",
+    "C:\\Users\\Gál Zalán\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\3.1.21\\microsoft.entityframeworkcore.sqlserver.3.1.21.nupkg.sha512",
+    "C:\\Users\\Gál Zalán\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\3.1.21\\microsoft.entityframeworkcore.tools.3.1.21.nupkg.sha512",
     "C:\\Users\\Gál Zalán\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\Gál Zalán\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
     "C:\\Users\\Gál Zalán\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
