@@ -1,21 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Balint\\source\\repos\\restbe\\restbe\\restbe.csproj": {}
+    "C:\\Users\\Gál Zalán\\Desktop\\R\\restbe\\restbe\\restbe.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Balint\\source\\repos\\restbe\\restbe\\restbe.csproj": {
+    "C:\\Users\\Gál Zalán\\Desktop\\R\\restbe\\restbe\\restbe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Balint\\source\\repos\\restbe\\restbe\\restbe.csproj",
+        "projectUniqueName": "C:\\Users\\Gál Zalán\\Desktop\\R\\restbe\\restbe\\restbe.csproj",
         "projectName": "restbe",
-        "projectPath": "C:\\Users\\Balint\\source\\repos\\restbe\\restbe\\restbe.csproj",
-        "packagesPath": "C:\\Users\\Balint\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Balint\\source\\repos\\restbe\\restbe\\obj\\",
+        "projectPath": "C:\\Users\\Gál Zalán\\Desktop\\R\\restbe\\restbe\\restbe.csproj",
+        "packagesPath": "C:\\Users\\Gál Zalán\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gál Zalán\\Desktop\\R\\restbe\\restbe\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Balint\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Gál Zalán\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
