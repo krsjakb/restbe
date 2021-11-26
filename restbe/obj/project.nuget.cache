@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "IUZ7PPMRPwk7+9qTP8L9RIqyKjQMY2XnIRwb0uT/PIljI97LtuhLM34as6MGQGKWSxVONy7XnNcrl4pSLYBjcA==",
+  "dgSpecHash": "Bg/TfCgjqVoVNy0SF8pJwend6mi/L1tqmOmI/CGFQtNGyrgc0MQTndRY67WLn61Q1vVpzYUUTuWPXzjgPVL4KQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Balint\\source\\repos\\restbe\\restbe\\restbe.csproj",
   "expectedPackageFiles": [
@@ -25,8 +25,8 @@
     "C:\\Users\\Balint\\.nuget\\packages\\microsoft.entityframeworkcore.design\\5.0.11\\microsoft.entityframeworkcore.design.5.0.11.nupkg.sha512",
     "C:\\Users\\Balint\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\5.0.11\\microsoft.entityframeworkcore.inmemory.5.0.11.nupkg.sha512",
     "C:\\Users\\Balint\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.11\\microsoft.entityframeworkcore.relational.5.0.11.nupkg.sha512",
-    "C:\\Users\\Balint\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\3.1.20\\microsoft.entityframeworkcore.sqlserver.3.1.20.nupkg.sha512",
-    "C:\\Users\\Balint\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\3.1.20\\microsoft.entityframeworkcore.tools.3.1.20.nupkg.sha512",
+    "C:\\Users\\Balint\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\3.1.21\\microsoft.entityframeworkcore.sqlserver.3.1.21.nupkg.sha512",
+    "C:\\Users\\Balint\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\3.1.21\\microsoft.entityframeworkcore.tools.3.1.21.nupkg.sha512",
     "C:\\Users\\Balint\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\Balint\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
     "C:\\Users\\Balint\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",

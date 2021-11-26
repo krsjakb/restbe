@@ -138,4 +138,3 @@ C:\Users\Balint\source\repos\restbe\restbe\bin\Debug\netcoreapp3.1\Swashbuckle.A
 C:\Users\Balint\source\repos\restbe\restbe\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
 C:\Users\Balint\source\repos\restbe\restbe\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\Balint\source\repos\restbe\restbe\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
-C:\Users\Balint\source\repos\restbe\restbe\obj\Debug\netcoreapp3.1\restbe.csproj.CopyComplete
