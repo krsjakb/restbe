@@ -11,5 +11,6 @@ namespace restbe.Models
         public int Price { get; set; }
         public string BrandName { get; set; }
         public string TypeName { get; set; }
+        public virtual ICollection<PhoneUSBCompatibility> USBCompatibility { get; set; }
     }
 }

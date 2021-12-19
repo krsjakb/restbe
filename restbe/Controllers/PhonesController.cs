@@ -24,14 +24,16 @@ namespace restbe.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Phone>>> GetPhone()
         {
-            return await _context.Phone.ToListAsync();
+            return await _context.Phone.Include(e => e.USBCompatibility)
+                                       .ToListAsync();
         }
 
         // GET: api/Phones/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Phone>> GetPhone(int id)
         {
-            var phone = await _context.Phone.FindAsync(id);
+            var phone = await _context.Phone.Include(e => e.USBCompatibility)
+                                            .FirstOrDefaultAsync(e => e.Id == id);
 
             if (phone == null)
             {
