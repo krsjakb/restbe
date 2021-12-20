@@ -24,7 +24,7 @@ namespace restbe.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<MonitorBrand>>> GetMonitorBrand()
         {
-            return await _context.MonitorBrand
+            return await _context.MonitorBrands
                 .Include(c => c.MonitorModels)
                 .ToListAsync();
         }
@@ -33,7 +33,7 @@ namespace restbe.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<MonitorBrand>> GetMonitorBrand(int id)
         {
-            var MonitorBrand = await _context.MonitorBrand
+            var MonitorBrand = await _context.MonitorBrands
                 .Include(c => c.MonitorModels)
                 .FirstOrDefaultAsync(x => x.Id == id);
 
@@ -83,7 +83,7 @@ namespace restbe.Controllers
         [HttpPost]
         public async Task<ActionResult<MonitorBrand>> PostMonitorBrand(MonitorBrand MonitorBrand)
         {
-            _context.MonitorBrand.Add(MonitorBrand);
+            _context.MonitorBrands.Add(MonitorBrand);
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetMonitorBrand", new { id = MonitorBrand.Id }, MonitorBrand);
@@ -93,13 +93,13 @@ namespace restbe.Controllers
         [HttpDelete("{id}")]
         public async Task<ActionResult<MonitorBrand>> DeleteMonitorBrand(int id)
         {
-            var MonitorBrand = await _context.MonitorBrand.FindAsync(id);
+            var MonitorBrand = await _context.MonitorBrands.FindAsync(id);
             if (MonitorBrand == null)
             {
                 return NotFound();
             }
 
-            _context.MonitorBrand.Remove(MonitorBrand);
+            _context.MonitorBrands.Remove(MonitorBrand);
             await _context.SaveChangesAsync();
 
             return MonitorBrand;
@@ -107,7 +107,7 @@ namespace restbe.Controllers
 
         private bool MonitorBrandExists(int id)
         {
-            return _context.MonitorBrand.Any(e => e.Id == id);
+            return _context.MonitorBrands.Any(e => e.Id == id);
         }
     }
 }
