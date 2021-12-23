@@ -8671,19 +8671,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Balint\\.nuget\\packages\\": {}
+    "C:\\Users\\benke\\.nuget\\packages\\": {},
+    "D:\\Program Files (x86)\\VS\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Balint\\source\\repos\\restbe\\restbe\\restbe.csproj",
+      "projectUniqueName": "D:\\bead\\restbe-master\\restbe\\restbe.csproj",
       "projectName": "restbe",
-      "projectPath": "C:\\Users\\Balint\\source\\repos\\restbe\\restbe\\restbe.csproj",
-      "packagesPath": "C:\\Users\\Balint\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Balint\\source\\repos\\restbe\\restbe\\obj\\",
+      "projectPath": "D:\\bead\\restbe-master\\restbe\\restbe.csproj",
+      "packagesPath": "C:\\Users\\benke\\.nuget\\packages\\",
+      "outputPath": "D:\\bead\\restbe-master\\restbe\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Program Files (x86)\\VS\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Balint\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\benke\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8776,7 +8781,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   }

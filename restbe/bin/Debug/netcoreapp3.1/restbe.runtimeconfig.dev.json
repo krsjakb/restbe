@@ -1,8 +1,9 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\Balint\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Balint\\.nuget\\packages"
+      "C:\\Users\\benke\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\benke\\.nuget\\packages",
+      "D:\\Program Files (x86)\\VS\\Shared\\NuGetPackages"
     ]
   }
 }
