@@ -11,6 +11,7 @@
     <WebStackScaffolding_DbContextTypeFullName>restbe.Models.MainDbContext</WebStackScaffolding_DbContextTypeFullName>
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
     <ActiveDebugProfile>restbe</ActiveDebugProfile>
+    <NameOfLastUsedPublishProfile>C:\Program Files\Ampps\www\restbe\restbe\Properties\PublishProfiles\FolderProfile.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
