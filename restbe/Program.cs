@@ -22,5 +22,7 @@ namespace restbe
                 {
                     webBuilder.UseStartup<Startup>();
                 });
+
+
     }
 }
