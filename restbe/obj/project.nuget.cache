@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IUZ7PPMRPwk7+9qTP8L9RIqyKjQMY2XnIRwb0uT/PIljI97LtuhLM34as6MGQGKWSxVONy7XnNcrl4pSLYBjcA==",
+  "dgSpecHash": "JtIJW/D2Pmqtee1CzNSydUpoOZ6DolB+2qcQznomlu6FrqBC7ZjN23gaFMia3M66KJJSoA6l8kEv4a2KbtVKuw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Balint\\source\\repos\\restbe\\restbe\\restbe.csproj",
+  "projectFilePath": "E:\\osztott_rendszerek\\restbe\\restbe\\restbe.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Balint\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Balint\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
@@ -25,8 +25,8 @@
     "C:\\Users\\Balint\\.nuget\\packages\\microsoft.entityframeworkcore.design\\5.0.11\\microsoft.entityframeworkcore.design.5.0.11.nupkg.sha512",
     "C:\\Users\\Balint\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\5.0.11\\microsoft.entityframeworkcore.inmemory.5.0.11.nupkg.sha512",
     "C:\\Users\\Balint\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.11\\microsoft.entityframeworkcore.relational.5.0.11.nupkg.sha512",
-    "C:\\Users\\Balint\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\3.1.20\\microsoft.entityframeworkcore.sqlserver.3.1.20.nupkg.sha512",
-    "C:\\Users\\Balint\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\3.1.20\\microsoft.entityframeworkcore.tools.3.1.20.nupkg.sha512",
+    "C:\\Users\\Balint\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\3.1.21\\microsoft.entityframeworkcore.sqlserver.3.1.21.nupkg.sha512",
+    "C:\\Users\\Balint\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\3.1.21\\microsoft.entityframeworkcore.tools.3.1.21.nupkg.sha512",
     "C:\\Users\\Balint\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\Balint\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
     "C:\\Users\\Balint\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
@@ -167,7 +167,9 @@
     "C:\\Users\\Balint\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Balint\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Balint\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Balint\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\Balint\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\Balint\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512",
+    "C:\\Users\\Balint\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
   ],
   "logs": []
 }
