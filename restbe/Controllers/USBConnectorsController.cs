@@ -1,9 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using restbe.Models;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using restbe.Models;
 
 namespace restbe.Controllers
 {
@@ -20,19 +22,20 @@ namespace restbe.Controllers
 
         // GET: api/USBConnectors
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<USBConnector>>> GetUSBConnector()
+        public async Task<ActionResult<IEnumerable<USBConnector>>> GetUSBConnectors()
         {
-            return await _context.USBConnector.Include(e => e.PhoneCompatibility)
-                                              .ToListAsync();
+            return await _context.USBConnectors.Include(u => u.PhoneUSBConnectors)
+                                               .Include(u => u.PlugType)
+                                               .ToListAsync();
         }
 
         // GET: api/USBConnectors/5
         [HttpGet("{id}")]
         public async Task<ActionResult<USBConnector>> GetUSBConnector(int id)
         {
-            var uSBConnector = await _context.USBConnector.Include(e => e.PhoneCompatibility)
-                                                          .FirstOrDefaultAsync(e => e.Id == id);
-            
+            var uSBConnector = await _context.USBConnectors.Include(u => u.PhoneUSBConnectors)
+                                                           .Include(u => u.PlugType)
+                                                           .FirstOrDefaultAsync(u => u.Id == id);
 
             if (uSBConnector == null)
             {
@@ -80,7 +83,7 @@ namespace restbe.Controllers
         [HttpPost]
         public async Task<ActionResult<USBConnector>> PostUSBConnector(USBConnector uSBConnector)
         {
-            _context.USBConnector.Add(uSBConnector);
+            _context.USBConnectors.Add(uSBConnector);
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetUSBConnector", new { id = uSBConnector.Id }, uSBConnector);
@@ -90,13 +93,13 @@ namespace restbe.Controllers
         [HttpDelete("{id}")]
         public async Task<ActionResult<USBConnector>> DeleteUSBConnector(int id)
         {
-            var uSBConnector = await _context.USBConnector.FindAsync(id);
+            var uSBConnector = await _context.USBConnectors.FindAsync(id);
             if (uSBConnector == null)
             {
                 return NotFound();
             }
 
-            _context.USBConnector.Remove(uSBConnector);
+            _context.USBConnectors.Remove(uSBConnector);
             await _context.SaveChangesAsync();
 
             return uSBConnector;
@@ -104,7 +107,7 @@ namespace restbe.Controllers
 
         private bool USBConnectorExists(int id)
         {
-            return _context.USBConnector.Any(e => e.Id == id);
+            return _context.USBConnectors.Any(e => e.Id == id);
         }
     }
 }

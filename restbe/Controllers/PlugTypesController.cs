@@ -11,50 +11,48 @@ namespace restbe.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class PhonesController : ControllerBase
+    public class PlugTypesController : ControllerBase
     {
         private readonly MainDbContext _context;
 
-        public PhonesController(MainDbContext context)
+        public PlugTypesController(MainDbContext context)
         {
             _context = context;
         }
 
-        // GET: api/Phones
+        // GET: api/PlugTypes
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Phone>>> GetPhone()
+        public async Task<ActionResult<IEnumerable<PlugType>>> GetPlugTypes()
         {
-            return await _context.Phone.Include(p => p.PhoneUSBConnectors)
-                                       .ToListAsync();
+            return await _context.PlugTypes.ToListAsync();
         }
 
-        // GET: api/Phones/5
+        // GET: api/PlugTypes/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Phone>> GetPhone(int id)
+        public async Task<ActionResult<PlugType>> GetPlugType(int id)
         {
-            var phone = await _context.Phone.Include(p => p.PhoneUSBConnectors)
-                                            .FirstOrDefaultAsync(p => p.Id == id);
+            var plugType = await _context.PlugTypes.FindAsync(id);
 
-            if (phone == null)
+            if (plugType == null)
             {
                 return NotFound();
             }
 
-            return phone;
+            return plugType;
         }
 
-        // PUT: api/Phones/5
+        // PUT: api/PlugTypes/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutPhone(int id, Phone phone)
+        public async Task<IActionResult> PutPlugType(int id, PlugType plugType)
         {
-            if (id != phone.Id)
+            if (id != plugType.Id)
             {
                 return BadRequest();
             }
 
-            _context.Entry(phone).State = EntityState.Modified;
+            _context.Entry(plugType).State = EntityState.Modified;
 
             try
             {
@@ -62,7 +60,7 @@ namespace restbe.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!PhoneExists(id))
+                if (!PlugTypeExists(id))
                 {
                     return NotFound();
                 }
@@ -75,37 +73,37 @@ namespace restbe.Controllers
             return NoContent();
         }
 
-        // POST: api/Phones
+        // POST: api/PlugTypes
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPost]
-        public async Task<ActionResult<Phone>> PostPhone(Phone phone)
+        public async Task<ActionResult<PlugType>> PostPlugType(PlugType plugType)
         {
-            _context.Phone.Add(phone);
+            _context.PlugTypes.Add(plugType);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetPhone", new { id = phone.Id }, phone);
+            return CreatedAtAction("GetPlugType", new { id = plugType.Id }, plugType);
         }
 
-        // DELETE: api/Phones/5
+        // DELETE: api/PlugTypes/5
         [HttpDelete("{id}")]
-        public async Task<ActionResult<Phone>> DeletePhone(int id)
+        public async Task<ActionResult<PlugType>> DeletePlugType(int id)
         {
-            var phone = await _context.Phone.FindAsync(id);
-            if (phone == null)
+            var plugType = await _context.PlugTypes.FindAsync(id);
+            if (plugType == null)
             {
                 return NotFound();
             }
 
-            _context.Phone.Remove(phone);
+            _context.PlugTypes.Remove(plugType);
             await _context.SaveChangesAsync();
 
-            return phone;
+            return plugType;
         }
 
-        private bool PhoneExists(int id)
+        private bool PlugTypeExists(int id)
         {
-            return _context.Phone.Any(e => e.Id == id);
+            return _context.PlugTypes.Any(e => e.Id == id);
         }
     }
 }

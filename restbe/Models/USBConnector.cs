@@ -2,13 +2,6 @@
 
 namespace restbe.Models
 {
-    public enum EPlugType
-    {
-        Micro,
-        Type_C,
-        Lightning
-    }
-
     public class USBConnector
     {
         public int Id { get; set; }
@@ -16,7 +9,9 @@ namespace restbe.Models
         public string Id_Production { get; set; }
         public double Amperage { get; set; }
         public double Voltage { get; set; }
-        public EPlugType PlugType { get; set; }
-        public virtual ICollection<PhoneUSBCompatibility> PhoneCompatibility { get; set; }
+
+        public int Id_PlugType { get; set; }
+        public PlugType PlugType { get; set; }
+        public virtual ICollection<PhoneUSBConnector> PhoneUSBConnectors { get; set; }
     }
 }
