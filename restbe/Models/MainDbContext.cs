@@ -17,5 +17,13 @@ namespace restbe.Models
         public DbSet<CarBrands> CarBrands { get; set; }
 
         public DbSet<CarModel> CarModel { get; set; }
+
+        public DbSet<WhiskeyBrands> WhiskeyBrands { get; set; }
+
+        public DbSet<WhiskeyModel> WhiskeyModel { get; set; }
+
+        public DbSet<ColaBrands> ColaBrands { get; set; }
+
+        public DbSet<ColaModel> ColaModel { get; set; }
     }
 }
