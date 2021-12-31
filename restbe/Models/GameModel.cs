@@ -5,11 +5,12 @@ using System.Threading.Tasks;
 
 namespace restbe.Models
 {
-    public class CarBrands
+    public class GameModel
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public string Origin { get; set; }
-        public virtual ICollection<CarModel> CarModels { get; set; }
+        public int CompanyId { get; set; }
+        public GameCompanys GameCompany { get; set; }
+
     }
 }

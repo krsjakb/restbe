@@ -11,52 +11,52 @@ namespace restbe.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CarModelsController : ControllerBase
+    public class GameCompanysController : ControllerBase
     {
         private readonly MainDbContext _context;
 
-        public CarModelsController(MainDbContext context)
+        public GameCompanysController(MainDbContext context)
         {
             _context = context;
         }
 
-        // GET: api/CarModels
+        // GET: api/GameCompanys
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<CarModel>>> GetCarModel()
+        public async Task<ActionResult<IEnumerable<GameCompanys>>> GetGameCompanys()
         {
-            return await _context.CarModel
-                .Include(c => c.CarBrand)
+            return await _context.GameCompanys
+                .Include(c => c.GameModels)
                 .ToListAsync();
         }
 
-        // GET: api/CarModels/5
+        // GET: api/GameCompanys/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<CarModel>> GetCarModel(int id)
+        public async Task<ActionResult<GameCompanys>> GetGameCompanys(int id)
         {
-            var carModel = await _context.CarModel
-                .Include(c => c.CarBrand)
-                .FirstOrDefaultAsync(c => c.Id == id);
+            var gameCompanys = await _context.GameCompanys
+                .Include(c => c.GameModels)
+                .FirstOrDefaultAsync(x => x.Id == id);
 
-            if (carModel == null)
+            if (gameCompanys == null)
             {
                 return NotFound();
             }
 
-            return carModel;
+            return gameCompanys;
         }
 
-        // PUT: api/CarModels/5
+        // PUT: api/GameCompanys/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutCarModel(int id, CarModel carModel)
+        public async Task<IActionResult> PutGameCompanys(int id, GameCompanys gameCompanys)
         {
-            if (id != carModel.Id)
+            if (id != gameCompanys.Id)
             {
                 return BadRequest();
             }
 
-            _context.Entry(carModel).State = EntityState.Modified;
+            _context.Entry(gameCompanys).State = EntityState.Modified;
 
             try
             {
@@ -64,7 +64,7 @@ namespace restbe.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!CarModelExists(id))
+                if (!GameCompanysExists(id))
                 {
                     return NotFound();
                 }
@@ -77,37 +77,37 @@ namespace restbe.Controllers
             return NoContent();
         }
 
-        // POST: api/CarModels
+        // POST: api/GameCompanys
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPost]
-        public async Task<ActionResult<CarModel>> PostCarModel(CarModel carModel)
+        public async Task<ActionResult<GameCompanys>> PostCarBrands(GameCompanys gameCompanys)
         {
-            _context.CarModel.Add(carModel);
+            _context.GameCompanys.Add(gameCompanys);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetCarModel", new { id = carModel.Id }, carModel);
+            return CreatedAtAction("GetGameCompanys", new { id = gameCompanys.Id }, gameCompanys);
         }
 
-        // DELETE: api/CarModels/5
+        // DELETE: api/GameCompanys/5
         [HttpDelete("{id}")]
-        public async Task<ActionResult<CarModel>> DeleteCarModel(int id)
+        public async Task<ActionResult<GameCompanys>> DeleteGameCompanys(int id)
         {
-            var carModel = await _context.CarModel.FindAsync(id);
-            if (carModel == null)
+            var gameCompanys = await _context.GameCompanys.FindAsync(id);
+            if (gameCompanys == null)
             {
                 return NotFound();
             }
 
-            _context.CarModel.Remove(carModel);
+            _context.GameCompanys.Remove(gameCompanys);
             await _context.SaveChangesAsync();
 
-            return carModel;
+            return gameCompanys;
         }
 
-        private bool CarModelExists(int id)
+        private bool GameCompanysExists(int id)
         {
-            return _context.CarModel.Any(e => e.Id == id);
+            return _context.GameCompanys.Any(e => e.Id == id);
         }
     }
 }

@@ -39,7 +39,7 @@ namespace restbe
 
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Cars", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Games", Version = "v1" });
             });
 
             services.AddCors(o => o.AddPolicy("MyPolicy", builder =>
