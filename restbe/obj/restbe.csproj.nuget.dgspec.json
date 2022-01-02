@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Valentin\\Desktop\\restbe-master\\restbe\\restbe.csproj": {}
+    "C:\\Users\\Marci\\Downloads\\Osztott rendszerek párh. prog\\restbe-FLNYRL\\restbe\\restbe.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Valentin\\Desktop\\restbe-master\\restbe\\restbe.csproj": {
+    "C:\\Users\\Marci\\Downloads\\Osztott rendszerek párh. prog\\restbe-FLNYRL\\restbe\\restbe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Valentin\\Desktop\\restbe-master\\restbe\\restbe.csproj",
+        "projectUniqueName": "C:\\Users\\Marci\\Downloads\\Osztott rendszerek párh. prog\\restbe-FLNYRL\\restbe\\restbe.csproj",
         "projectName": "restbe",
-        "projectPath": "C:\\Users\\Valentin\\Desktop\\restbe-master\\restbe\\restbe.csproj",
-        "packagesPath": "C:\\Users\\Valentin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Valentin\\Desktop\\restbe-master\\restbe\\obj\\",
+        "projectPath": "C:\\Users\\Marci\\Downloads\\Osztott rendszerek párh. prog\\restbe-FLNYRL\\restbe\\restbe.csproj",
+        "packagesPath": "C:\\Users\\Marci\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Marci\\Downloads\\Osztott rendszerek párh. prog\\restbe-FLNYRL\\restbe\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Valentin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Marci\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -103,12 +103,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.13, 3.1.13]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -117,7 +111,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

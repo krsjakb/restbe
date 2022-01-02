@@ -5,11 +5,10 @@ using System.Threading.Tasks;
 
 namespace restbe.Models
 {
-    public class JobAdvertisement
+    public class Pizzas
     {
         public int Id { get; set; }
-        public String name { get; set; }
-        public String text { get; set; }
-        public String location { get; set; }
+        public string Name { get; set; }
+        public string Components { get; set; }
     }
 }

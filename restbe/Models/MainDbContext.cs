@@ -18,6 +18,6 @@ namespace restbe.Models
 
         public DbSet<CarModel> CarModel { get; set; }
 
-        public DbSet<restbe.Models.JobAdvertisement> JobAdvertisement { get; set; }
+        public DbSet<Pizzas> Pizzas { get; set; }
     }
 }
