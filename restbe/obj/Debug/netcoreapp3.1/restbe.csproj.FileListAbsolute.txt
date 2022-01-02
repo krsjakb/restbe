@@ -139,3 +139,5 @@ C:\Users\Balint\source\repos\restbe\restbe\bin\Debug\netcoreapp3.1\Microsoft.Asp
 C:\Users\Balint\source\repos\restbe\restbe\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\Balint\source\repos\restbe\restbe\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 C:\Users\Balint\source\repos\restbe\restbe\obj\Debug\netcoreapp3.1\restbe.csproj.CopyComplete
+C:\Users\szzso\OneDrive\Dokumentumok\GitHub\restbe\restbe\obj\Debug\netcoreapp3.1\restbe.dll
+C:\Users\szzso\OneDrive\Dokumentumok\GitHub\restbe\restbe\obj\Debug\netcoreapp3.1\restbe.pdb
