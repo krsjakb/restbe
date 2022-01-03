@@ -3,9 +3,9 @@
     public class HairDryer
     {
 
-        public int id { get; set; }
-        public string model { get; set; }
-        public string brand { get; set; }
+        public int Id { get; set; }
+        public string Type { get; set; }
+        public string Manufacturer { get; set; }
 
     }
 }

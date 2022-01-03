@@ -22,16 +22,16 @@ namespace restbe.Controllers
 
         // GET: api/HairDryers
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<HairDryer>>> GetHairDryers()
+        public async Task<ActionResult<IEnumerable<HairDryer>>> GetHairDryer()
         {
-            return await _context.HairDryers.ToListAsync();
+            return await _context.HairDryer.ToListAsync();
         }
 
         // GET: api/HairDryers/5
         [HttpGet("{id}")]
         public async Task<ActionResult<HairDryer>> GetHairDryer(int id)
         {
-            var hairDryer = await _context.HairDryers.FindAsync(id);
+            var hairDryer = await _context.HairDryer.FindAsync(id);
 
             if (hairDryer == null)
             {
@@ -47,7 +47,7 @@ namespace restbe.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> PutHairDryer(int id, HairDryer hairDryer)
         {
-            if (id != hairDryer.id)
+            if (id != hairDryer.Id)
             {
                 return BadRequest();
             }
@@ -79,23 +79,23 @@ namespace restbe.Controllers
         [HttpPost]
         public async Task<ActionResult<HairDryer>> PostHairDryer(HairDryer hairDryer)
         {
-            _context.HairDryers.Add(hairDryer);
+            _context.HairDryer.Add(hairDryer);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetHairDryer", new { id = hairDryer.id }, hairDryer);
+            return CreatedAtAction("GetHairDryer", new { id = hairDryer.Id }, hairDryer);
         }
 
         // DELETE: api/HairDryers/5
         [HttpDelete("{id}")]
         public async Task<ActionResult<HairDryer>> DeleteHairDryer(int id)
         {
-            var hairDryer = await _context.HairDryers.FindAsync(id);
+            var hairDryer = await _context.HairDryer.FindAsync(id);
             if (hairDryer == null)
             {
                 return NotFound();
             }
 
-            _context.HairDryers.Remove(hairDryer);
+            _context.HairDryer.Remove(hairDryer);
             await _context.SaveChangesAsync();
 
             return hairDryer;
@@ -103,7 +103,7 @@ namespace restbe.Controllers
 
         private bool HairDryerExists(int id)
         {
-            return _context.HairDryers.Any(e => e.id == id);
+            return _context.HairDryer.Any(e => e.Id == id);
         }
     }
 }
