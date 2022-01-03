@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\Balint\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Balint\\.nuget\\packages"
+      "C:\\Users\\hajas\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\hajas\\.nuget\\packages"
     ]
   }
 }
