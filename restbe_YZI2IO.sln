@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31729.503
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "restbe", "restbe\restbe.csproj", "{EE13BD76-CD56-4575-8E22-6B7CBFEB02A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "restbe_YZI2IO", "restbe\restbe_YZI2IO.csproj", "{EE13BD76-CD56-4575-8E22-6B7CBFEB02A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
