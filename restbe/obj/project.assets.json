@@ -8671,19 +8671,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Balint\\.nuget\\packages\\": {}
+    "C:\\Users\\porga\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Balint\\source\\repos\\restbe\\restbe\\restbe.csproj",
+      "projectUniqueName": "C:\\Users\\porga\\source\\repos\\restbe\\restbe\\restbe.csproj",
       "projectName": "restbe",
-      "projectPath": "C:\\Users\\Balint\\source\\repos\\restbe\\restbe\\restbe.csproj",
-      "packagesPath": "C:\\Users\\Balint\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Balint\\source\\repos\\restbe\\restbe\\obj\\",
+      "projectPath": "C:\\Users\\porga\\source\\repos\\restbe\\restbe\\restbe.csproj",
+      "packagesPath": "C:\\Users\\porga\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\porga\\source\\repos\\restbe\\restbe\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Balint\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\porga\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8776,7 +8776,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   }
