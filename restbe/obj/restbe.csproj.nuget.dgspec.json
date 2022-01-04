@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Balint\\source\\repos\\restbe\\restbe\\restbe.csproj": {}
+    "C:\\Users\\Dávid\\Desktop\\parhuzamos\\screwdriver\\rest-be-i016d5\\restbe\\restbe.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Balint\\source\\repos\\restbe\\restbe\\restbe.csproj": {
+    "C:\\Users\\Dávid\\Desktop\\parhuzamos\\screwdriver\\rest-be-i016d5\\restbe\\restbe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Balint\\source\\repos\\restbe\\restbe\\restbe.csproj",
+        "projectUniqueName": "C:\\Users\\Dávid\\Desktop\\parhuzamos\\screwdriver\\rest-be-i016d5\\restbe\\restbe.csproj",
         "projectName": "restbe",
-        "projectPath": "C:\\Users\\Balint\\source\\repos\\restbe\\restbe\\restbe.csproj",
-        "packagesPath": "C:\\Users\\Balint\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Balint\\source\\repos\\restbe\\restbe\\obj\\",
+        "projectPath": "C:\\Users\\Dávid\\Desktop\\parhuzamos\\screwdriver\\rest-be-i016d5\\restbe\\restbe.csproj",
+        "packagesPath": "C:\\Users\\Dávid\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dávid\\Desktop\\parhuzamos\\screwdriver\\rest-be-i016d5\\restbe\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Balint\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dávid\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +26,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -38,7 +37,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
@@ -107,7 +105,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
