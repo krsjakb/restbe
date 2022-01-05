@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Balint\\source\\repos\\restbe\\restbe\\restbe.csproj": {}
+    "C:\\Users\\mateb\\source\\repos\\restbe\\restbe\\restbe.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Balint\\source\\repos\\restbe\\restbe\\restbe.csproj": {
+    "C:\\Users\\mateb\\source\\repos\\restbe\\restbe\\restbe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Balint\\source\\repos\\restbe\\restbe\\restbe.csproj",
+        "projectUniqueName": "C:\\Users\\mateb\\source\\repos\\restbe\\restbe\\restbe.csproj",
         "projectName": "restbe",
-        "projectPath": "C:\\Users\\Balint\\source\\repos\\restbe\\restbe\\restbe.csproj",
-        "packagesPath": "C:\\Users\\Balint\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Balint\\source\\repos\\restbe\\restbe\\obj\\",
+        "projectPath": "C:\\Users\\mateb\\source\\repos\\restbe\\restbe\\restbe.csproj",
+        "packagesPath": "C:\\Users\\mateb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mateb\\source\\repos\\restbe\\restbe\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Balint\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mateb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -107,7 +107,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
