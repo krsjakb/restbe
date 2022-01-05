@@ -1,6 +1,6 @@
 ﻿namespace restbe.Models
 {
-    public class HairDryer
+    public class DishWasher
     {
 
         public int Id { get; set; }
