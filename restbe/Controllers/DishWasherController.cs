@@ -11,48 +11,48 @@ namespace restbe.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class HairDryersController : ControllerBase
+    public class DishWasherController : ControllerBase
     {
         private readonly MainDbContext _context;
 
-        public HairDryersController(MainDbContext context)
+        public DishWasherController(MainDbContext context)
         {
             _context = context;
         }
 
-        // GET: api/HairDryers
+        // GET: api/DishWasher
         [HttpGet]
         public async Task<ActionResult<IEnumerable<HairDryer>>> GetHairDryer()
         {
-            return await _context.HairDryer.ToListAsync();
+            return await _context.DishWasher.ToListAsync();
         }
 
-        // GET: api/HairDryers/5
+        // GET: api/DishWasher/5
         [HttpGet("{id}")]
         public async Task<ActionResult<HairDryer>> GetHairDryer(int id)
         {
-            var hairDryer = await _context.HairDryer.FindAsync(id);
+            var dishWasher = await _context.DishWasher.FindAsync(id);
 
-            if (hairDryer == null)
+            if (dishWasher == null)
             {
                 return NotFound();
             }
 
-            return hairDryer;
+            return dishWasher;
         }
 
-        // PUT: api/HairDryers/5
+        // PUT: api/DishWasher/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutHairDryer(int id, HairDryer hairDryer)
+        public async Task<IActionResult> PutDishWasher(int id, DishWasher dishWasher)
         {
-            if (id != hairDryer.Id)
+            if (id != dishWasher.Id)
             {
                 return BadRequest();
             }
 
-            _context.Entry(hairDryer).State = EntityState.Modified;
+            _context.Entry(dishWasher).State = EntityState.Modified;
 
             try
             {
@@ -60,7 +60,7 @@ namespace restbe.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!HairDryerExists(id))
+                if (!DishWasherExists(id))
                 {
                     return NotFound();
                 }
@@ -73,37 +73,37 @@ namespace restbe.Controllers
             return NoContent();
         }
 
-        // POST: api/HairDryers
+        // POST: api/DishWasher
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPost]
-        public async Task<ActionResult<HairDryer>> PostHairDryer(HairDryer hairDryer)
+        public async Task<ActionResult<DishWasher>> PostDishWasher(DishWasher dishWasher)
         {
-            _context.HairDryer.Add(hairDryer);
+            _context.DishWasher.Add(dishWasher);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetHairDryer", new { id = hairDryer.Id }, hairDryer);
+            return CreatedAtAction("GetDishWasher", new { id = dishWasher.Id }, dishWasher);
         }
 
-        // DELETE: api/HairDryers/5
+        // DELETE: api/DishWasher/5
         [HttpDelete("{id}")]
-        public async Task<ActionResult<HairDryer>> DeleteHairDryer(int id)
+        public async Task<ActionResult<DishWasher>> DeleteDishWasher(int id)
         {
-            var hairDryer = await _context.HairDryer.FindAsync(id);
-            if (hairDryer == null)
+            var dishWasher = await _context.DishWasher.FindAsync(id);
+            if (dishWasher == null)
             {
                 return NotFound();
             }
 
-            _context.HairDryer.Remove(hairDryer);
+            _context.DishWasher.Remove(dishWasher);
             await _context.SaveChangesAsync();
 
-            return hairDryer;
+            return dishWasher;
         }
 
-        private bool HairDryerExists(int id)
+        private bool DishWasherExists(int id)
         {
-            return _context.HairDryer.Any(e => e.Id == id);
+            return _context.DishWasher.Any(e => e.Id == id);
         }
     }
 }
