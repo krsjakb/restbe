@@ -22,14 +22,14 @@ namespace restbe.Controllers
 
         // GET: api/DishWasher
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<HairDryer>>> GetHairDryer()
+        public async Task<ActionResult<IEnumerable<DishWasher>>> GetDishWasher()
         {
             return await _context.DishWasher.ToListAsync();
         }
 
         // GET: api/DishWasher/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<HairDryer>> GetHairDryer(int id)
+        public async Task<ActionResult<DishWasher>> GetDishWasher(int id)
         {
             var dishWasher = await _context.DishWasher.FindAsync(id);
 
